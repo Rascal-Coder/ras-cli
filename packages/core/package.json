@@ -1,11 +1,14 @@
 {
-  "name": "core",
+  "name": "@ras-cli/core",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "qiyuhang <qiyuhang@zhixue.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "bin/ras-cli.js",
+  "bin": {
+    "ras-cli": "bin/ras-cli.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
